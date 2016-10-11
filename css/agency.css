@@ -748,21 +748,24 @@ section#contact .text-danger {
 }
 
 footer {
-    padding: 25px 0;
-    text-align: center
+    padding: 30px 0;
+    text-align: center;
+    background-color: #222;
 }
 
 footer span.copyright {
-    line-height: 40px;
-    text-transform: uppercase;
-    text-transform: none
+    line-height: 50px;
+    font-size: .7em;
+    color:white;
 }
 
 footer ul.quicklinks {
     margin-bottom: 0;
     line-height: 40px;
-    text-transform: uppercase;
-    text-transform: none
+}
+
+img.footer-logo {
+  height:60px;
 }
 
 ul.social-buttons {
@@ -896,7 +899,6 @@ img::selection {
 img::-moz-selection {
     background: 0 0
 }
-
 
 /*start button bounce affect*/
 @-moz-keyframes bounce {
