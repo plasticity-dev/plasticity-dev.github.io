@@ -667,8 +667,13 @@ div.contact-message {
 section#contact {
     background-color: #222;
     background-image: url(../img/map-image.png);
-    background-position: center;
     background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
     padding-top: 35px
 }
 
