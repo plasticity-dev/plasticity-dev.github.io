@@ -237,6 +237,12 @@ fieldset[disabled] .btn-xl:hover {
   border: 5px solid #fed136;
 }
 
+.navbar-header a {
+  padding: 0px;
+  padding-left: 20px;
+  padding-top: 5px;
+}
+
 @media (min-width:768px) {
     .navbar-custom {
         background-color: transparent;
@@ -247,6 +253,7 @@ fieldset[disabled] .btn-xl:hover {
         border: none
     }
     .navbar-custom .navbar-brand {
+        padding: 0px;
         font-size: 3em;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
@@ -260,7 +267,8 @@ fieldset[disabled] .btn-xl:hover {
         padding: 10px 0
     }
     .navbar-custom.affix .navbar-brand {
-        font-size: 2em
+      padding: 5px;
+      font-size: 2em
     }
 }
 
