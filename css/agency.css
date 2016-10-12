@@ -672,6 +672,11 @@ div.contact-message {
   border-radius: 7px;
 }
 
+h3.contact-note {
+  line-height: 25px;
+  margin-bottom: 50px;
+}
+
 section#contact {
     background-color: #222;
     background-image: url(../img/map-image.png);
