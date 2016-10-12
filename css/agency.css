@@ -836,6 +836,11 @@ ul.social-buttons li a:hover {
     background-color: #fed136
 }
 
+footer ul.social-buttons li a {
+    background-color: #fff;
+    color: #222;
+}
+
 .btn.active,
 .btn:active,
 .btn:active:focus,
