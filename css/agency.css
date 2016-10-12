@@ -643,15 +643,15 @@ footer ul.quicklinks {
     }
 }
 
-/*.member-jon {
-    background-image: url("../img/team/2.jpg");
-}*/
-
 .team-member {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
     position: relative;
     text-align: center;
     margin-bottom: 50px;
-    display: flex;
     align-items: center;
     border-radius: 50%;
 }
