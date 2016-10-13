@@ -1,6 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    dotenv (2.1.1)
     json (2.0.2)
     mail (2.6.4)
       mime-types (>= 1.16, < 4)
@@ -26,6 +27,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  dotenv
   mail
   postmark
   shotgun
