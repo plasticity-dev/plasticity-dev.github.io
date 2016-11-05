@@ -38,13 +38,35 @@
     <!-- <link rel="shortcut icon" href="/favicon.ico"/> -->
     <!-- <link rel="icon" href="../favicon.ico?" type="image/x-icon"> -->
     <link rel="icon" href="/favicon.ico"/>
-    <link href="css/agency.min.css" rel="stylesheet">
+    <link href="css/agency.css" rel="stylesheet">
     <style>
     .timeline:before {
       background-color: #fed136;
     }
     .timeline > li .timeline-image {
       border: 5px solid #fed136;
+    }
+
+    @media (min-width:768px) {
+        header .intro-text {
+            padding-top: 200px;
+            padding-bottom: 200px
+        }
+        header .intro-text .intro-lead-in {
+            font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-style: italic;
+            font-size: 30px;
+            line-height: 40px;
+            margin-bottom: 25px
+        }
+        header .intro-text .intro-heading {
+            font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+            text-transform: uppercase;
+            font-weight: 700;
+            font-size: 55px;
+            line-height: 75px;
+            margin-bottom: 50px
+        }
     }
     </style>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
